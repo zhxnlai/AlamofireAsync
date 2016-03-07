@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AlamofireAsync_Example', :exclusive => true do
+  pod 'AlamofireAsync', :path => '../'
+end
+
+target 'AlamofireAsync_Tests', :exclusive => true do
+  pod 'AlamofireAsync', :path => '../'
+
+  pod 'Quick', '~> 0.8.0'
+  pod 'Nimble', '3.0.0'
+end
