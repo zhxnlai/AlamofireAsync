@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "AlamofireAsync"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AlamofireAsync."
+  s.summary          = "Async extension for Alamofire."
 
   s.homepage         = "https://github.com/zhxnlai/AlamofireAsync"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
