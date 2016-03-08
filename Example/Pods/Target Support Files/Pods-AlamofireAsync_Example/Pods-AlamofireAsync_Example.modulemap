@@ -1,0 +1,6 @@
+framework module Pods_AlamofireAsync_Example {
+  umbrella header "Pods-AlamofireAsync_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

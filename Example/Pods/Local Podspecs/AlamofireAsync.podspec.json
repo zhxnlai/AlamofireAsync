@@ -1,0 +1,30 @@
+{
+  "name": "AlamofireAsync",
+  "version": "0.1.0",
+  "summary": "A short description of AlamofireAsync.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AlamofireAsync",
+  "license": "MIT",
+  "authors": {
+    "Zhixuan Lai": "zhxnlai@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AlamofireAsync.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AlamofireAsync": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.0"
+    ]
+  }
+}

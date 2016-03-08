@@ -3,11 +3,15 @@ use_frameworks!
 
 target 'AlamofireAsync_Example', :exclusive => true do
   pod 'AlamofireAsync', :path => '../'
+  pod 'Alamofire', '~> 3.0'
+  pod 'SwiftAsync'
 end
 
 target 'AlamofireAsync_Tests', :exclusive => true do
   pod 'AlamofireAsync', :path => '../'
-
+  pod 'Alamofire', '~> 3.0'
+  pod 'SwiftAsync'
+  
   pod 'Quick', '~> 0.8.0'
   pod 'Nimble', '3.0.0'
 end

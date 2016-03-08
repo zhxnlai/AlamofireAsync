@@ -1,0 +1,6 @@
+framework module AlamofireAsync {
+  umbrella header "AlamofireAsync-umbrella.h"
+
+  export *
+  module * { export * }
+}

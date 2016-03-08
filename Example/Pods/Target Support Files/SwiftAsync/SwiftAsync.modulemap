@@ -1,0 +1,6 @@
+framework module SwiftAsync {
+  umbrella header "SwiftAsync-umbrella.h"
+
+  export *
+  module * { export * }
+}
